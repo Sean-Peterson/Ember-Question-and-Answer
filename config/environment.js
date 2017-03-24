@@ -1,4 +1,4 @@
-/* jshint node: true */
+/* eslint-env node */
 
 module.exports = function(environment) {
   var ENV = {
@@ -15,6 +15,13 @@ module.exports = function(environment) {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
       }
+    },
+
+    firebase: {
+      apiKey: "AIzaSyA0U2Ig_YFy8W0wcZ2FZm5H7brrJzFhthM",
+    authDomain: "question-and-answer-5778a.firebaseapp.com",
+    databaseURL: "https://question-and-answer-5778a.firebaseio.com",
+    storageBucket: "question-and-answer-5778a.appspot.com",
     },
 
     APP: {

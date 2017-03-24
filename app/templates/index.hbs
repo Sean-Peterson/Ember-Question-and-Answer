@@ -1,1 +1,5 @@
-{{question-tile}}
+{{#each model as |question|}}
+<ul>
+  {{question-tile question=question}}
+</ul>
+{{/each}}

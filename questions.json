@@ -1,0 +1,11 @@
+{ "questions": [{
+    "author": "Eduardo",
+    "content": "Why is the sky blue?",
+    "notes": "This is a simple question, but I'd rather ask you all instead of googling it myself."
+  }, {
+      "author": "Peter",
+      "content": "What is the greatest?",
+      "notes": "I've been wondering about this for a while."
+
+    }]
+}
