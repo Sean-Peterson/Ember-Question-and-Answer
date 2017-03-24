@@ -1,8 +1,10 @@
 <div class="question-tile">
+  {{#link-to 'question' question.id}}
   <li>
     {{question.author}}<br>
     {{question.content}}
   </li>
+  {{/link-to}}
   {{update-question question=question update="update"}}
   <button class="btn" {{action 'delete' question}}>Delete Question</button>
 </div>
