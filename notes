@@ -4,23 +4,29 @@ Project name:
     Project Description:
       Create a question and answer message board where a user submits a question and other users can respond with answers.
 
-        Question Model:
-          QUESTIONS should have the CONTENT of the question itself, an AUTHOR and additional NOTES.
 
         Answer Model:
           ANSWERS should have the CONTENT of the answer and the AUTHOR.
 
-        Template:
-          Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
 
-        Homepage:
-          List ALL QUESTIONS on the homepage, with ONLY the QUESTIONS and the name of the AUTHOR showing.
 
         Question Route:
           Users should be able to CLICK on a QUESTION, and be ROUTED to another page containing additional information.
 
-        Update and Delete Questions:
-          Allow users to ADD and EDIT questions.
 
-        Add answers to Questions:
+        Add ANSWERS to Questions:
           Allow users to ADD ANSWERS to a QUESTION. Answers should be ADDED and VIEWED on the SAME page as the QUESTION they respond to.
+
+
+
+        Question Model: check
+          QUESTIONS should have the CONTENT of the question itself, an AUTHOR and additional NOTES.
+
+        Template: check
+          Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+
+        Homepage: check
+          List ALL QUESTIONS on the homepage, with ONLY the QUESTIONS and the name of the AUTHOR showing.
+
+        Update and Delete Questions: check
+          Allow users to ADD and EDIT questions.
