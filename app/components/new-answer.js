@@ -6,10 +6,12 @@ export default Ember.Component.extend({
     answerFormShow() {
       this.set('addNewAnswer', true);
     },
-    saveAnswer(question_id) {
+    saveAnswer() {
      var params = {
        author: this.get('author'),
-       content: this.get('content')
+       content: this.get('content'),
+       model: this.get('model')
+
      };
      this.set('addNewAnswer', false);
      this.sendAction('saveAnswer', params);

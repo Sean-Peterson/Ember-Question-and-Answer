@@ -1,21 +1,21 @@
-<h4>{{model.question.author}} asked:</h4>
+<h4>{{model.author}} asked:</h4>
 <p>
-  {{model.question.content}}
+  {{model.content}}
 </p>
 <br>
 <h4>Side note:<br></h4>
 <p>
-  {{model.question.notes}}
+  {{model.notes}}
 </p>
 <br>
 <h4>Answers to the question:</h4>
-{{#each model.answer as |answer|}}
+{{#each model as |answer|}}
 <h5>{{answer.author}}</h5>
   <p>
     {{answer.content}}
   </p>
 {{/each}}
 
-{{new-answer model=model.question saveAnswer="saveAnswer"}}
+{{new-answer model=model saveAnswer="saveAnswer"}}
 
-{{update-question model=model.question update="update" destroyQuestion="destroyQuestion"}}
+{{update-question model=model update="update" destroyQuestion="destroyQuestion"}}
