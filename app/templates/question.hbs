@@ -9,11 +9,8 @@
 </p>
 <br>
 <h4>Answers to the question:</h4>
-{{#each model as |answer|}}
-<h5>{{answer.author}}</h5>
-  <p>
-    {{answer.content}}
-  </p>
+{{#each model.answers as |answer|}}
+{{answer-tile answer=answer}}
 {{/each}}
 
 {{new-answer model=model saveAnswer="saveAnswer"}}
