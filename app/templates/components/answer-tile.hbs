@@ -1,10 +1,11 @@
-<div class="answer-tile">
+<div class="answer-tile well">
 
-  <h5>{{answer.author}}</h5>
+  <h4>{{answer.author}}:</h4>
   <p>
-    {{answer.content}}
+    "{{answer.content}}"
   </p>
-
-  <button class='btn'{{action 'delete' answer}}>Delete Answer</button>
-  <br>
+<div id="delete-answer">
+  <button class='btn-danger'{{action 'delete' answer}}>Delete Answer</button>
+</div>
+<br>
 </div>

@@ -1,7 +1,6 @@
+<span class="secondary-title" id="index-secondary-title"><h2>Questions:</h2></span>
 {{#each model as |question|}}
-<ul>
   {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
-</ul>
 
 {{/each}}
 {{new-question saveQuestion2="saveQuestion3"}}

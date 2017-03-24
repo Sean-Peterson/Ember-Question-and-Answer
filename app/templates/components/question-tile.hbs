@@ -1,8 +1,8 @@
-<div class="question-tile">
+<div class="question-tile well">
   {{#link-to 'question' question.id}}
-  <li>
-    {{question.author}}<br>
-    {{question.content}}
-  </li>
+    <h3>{{question.author}}</h3>
+    <p>
+      {{question.content}}
+    </p>
   {{/link-to}}
 </div>

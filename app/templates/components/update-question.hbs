@@ -1,6 +1,6 @@
 {{#if updateQuestionForm}}
+<div class="update-question">
   <h4>Update {{model.content}}</h4>
-  <div>
     <form>
       <div class="form-group">
         <label for="author">Author</label>
@@ -20,7 +20,9 @@
       <button class='btn' {{action 'update' model}}>Save</button>
     </form>
     <button class="btn" {{action 'delete' model}}>Delete Question</button>
-  </div>
+</div>
 {{else}}
+<div class="update-question">
   <button class='btn' {{action 'updateQuestionForm'}}>Update</button>
+</div>
 {{/if}}

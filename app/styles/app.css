@@ -1,10 +1,35 @@
+.answer-tile {
+  text-align: center;
+}
+
+.application-container {
+  position: relative;
+  padding-bottom: 65px;
+}
+
+.btn {
+  margin: 10px;
+}
+
 .header {
   text-align: center;
   font-size: 70px;
 }
 
-#navbar {
-  float: right;
+.new-answer {
+  text-align: center;
+}
+
+.new-question {
+  text-align: center;
+}
+
+.secondary-title {
+  text-align: center;
+}
+
+.update-question {
+  text-align: center;
 }
 
 #application-h1 {
@@ -14,14 +39,8 @@
   text-transform: uppercase;
 }
 
-
-.btn {
-  margin: 10px;
-}
-
-.application-container {
-  position: relative;
-  padding-bottom: 65px;
+#delete-answer {
+  padding-left: 80%;
 }
 
 #footer {
@@ -33,4 +52,12 @@
   left: 0;
   border-top: 1px solid black;
   line-height: 50px;
+}
+
+#navbar {
+  float: right;
+}
+
+p {
+  font-size: 16px;
 }
