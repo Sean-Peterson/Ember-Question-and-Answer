@@ -3,8 +3,8 @@
 <span class="secondary-title"><h4>Answers to the question:</h4></span>
 
 {{#each model.answers as |answer|}}
-{{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+{{answer-tile answer=answer question=model destroyAnswer="destroyAnswer"}}
 {{/each}}
 {{new-answer model=model saveAnswer="saveAnswer"}}
 
-{{update-question model=model update="update" destroyQuestion="destroyQuestion"}}
+{{update-question model=model update="update" destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer" }}
