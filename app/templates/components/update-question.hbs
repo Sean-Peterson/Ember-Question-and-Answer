@@ -1,24 +1,25 @@
 {{#if updateQuestionForm}}
-  <h4>Update {{question.content}}</h4>
+  <h4>Update {{model.content}}</h4>
   <div>
     <form>
       <div class="form-group">
         <label for="author">Author</label>
-        {{input value=author id="author" placeholder=question.author}}
+        {{input value=author id="author" placeholder=model.author}}
       </div>
 
       <div class="form-group">
         <label for="content">Content</label>
-        {{input value=content id="content" placeholder=question.content}}
+        {{input value=content id="content" placeholder=model.content}}
       </div>
 
       <div class="form-group">
         <label for="notes">Notes</label>
-        {{input value=notes id="notes" placeholder=question.notes}}
+        {{input value=notes id="notes" placeholder=model.notes}}
       </div>
 
-      <button class='btn' {{action 'update' question}}>Save</button>
+      <button class='btn' {{action 'update' model}}>Save</button>
     </form>
+    <button class="btn" {{action 'delete' model}}>Delete Question</button>
   </div>
 {{else}}
   <button class='btn' {{action 'updateQuestionForm'}}>Update</button>

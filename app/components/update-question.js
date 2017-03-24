@@ -14,6 +14,12 @@ export default Ember.Component.extend({
       };
       this.set('updateQuestionForm', false);
       this.sendAction('update', question, params);
+    },
+
+    delete(model) {
+      if (confirm('Are you sure you want to delete this question?')) {
+        this.sendAction('destroyQuestion', model);
+      }
     }
   }
 });

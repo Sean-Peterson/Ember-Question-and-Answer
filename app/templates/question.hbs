@@ -3,7 +3,9 @@
   {{model.content}}
 </p>
 <br>
-<h4>Side note about the question: <br></h4>
+<h4>Side note:<br></h4>
 <p>
   {{model.notes}}
 </p>
+
+{{update-question model=model update="update" destroyQuestion="destroyQuestion"}}
