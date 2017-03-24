@@ -3,5 +3,6 @@
     {{question.author}}<br>
     {{question.content}}
   </li>
-  <button {{action 'delete' question}}>Delete Question</button>
+  {{update-question question=question update="update"}}
+  <button class="btn" {{action 'delete' question}}>Delete Question</button>
 </div>
