@@ -5,10 +5,10 @@ Project name:
       Create a question and answer message board where a user submits a question and other users can respond with answers.
 
 
-        Answer Model:
+        Answer Model: check
           ANSWERS should have the CONTENT of the answer and the AUTHOR.
 
-        Add ANSWERS to Questions:
+        Add ANSWERS to Questions: check
           Allow users to ADD ANSWERS to a QUESTION. Answers should be ADDED and VIEWED on the SAME page as the QUESTION they respond to.
 
 
