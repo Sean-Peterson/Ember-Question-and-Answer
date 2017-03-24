@@ -10,9 +10,9 @@
 <br>
 <h4>Answers to the question:</h4>
 {{#each model.answers as |answer|}}
-{{answer-tile answer=answer}}
+{{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
 {{/each}}
-
+<br>
 {{new-answer model=model saveAnswer="saveAnswer"}}
 
 {{update-question model=model update="update" destroyQuestion="destroyQuestion"}}
