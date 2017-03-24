@@ -7,5 +7,12 @@
       "content": "What is the greatest?",
       "notes": "I've been wondering about this for a while."
 
-    }]
+    }],
+  "answers": [{
+    "author": "Andrea",
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "content": "Nice view of the volcano!"
+  }]
 }
