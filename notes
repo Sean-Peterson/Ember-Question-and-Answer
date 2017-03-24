@@ -8,11 +8,10 @@ Project name:
         Answer Model:
           ANSWERS should have the CONTENT of the answer and the AUTHOR.
 
-        Question Route:
-          Users should be able to CLICK on a QUESTION, and be ROUTED to another page containing additional information.
-
         Add ANSWERS to Questions:
           Allow users to ADD ANSWERS to a QUESTION. Answers should be ADDED and VIEWED on the SAME page as the QUESTION they respond to.
+
+
 
 
 
@@ -30,3 +29,6 @@ Project name:
 
         Update and Delete Questions: check
           Allow users to ADD and EDIT questions.
+
+          Question Route: Check
+          Users should be able to CLICK on a QUESTION, and be ROUTED to another page containing additional information.
