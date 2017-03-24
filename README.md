@@ -2,7 +2,7 @@
 
 1. Configuration/dependencies
   * Bootstrap: package.json
-  * jQuery: package.json
+  * emberfire: package.json
   * All other other dependencies are installed by Ember and located in package.json
 
 2. Specs
