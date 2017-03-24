@@ -12,7 +12,7 @@ export default Ember.Component.extend({
        content: this.get('content')
      };
      this.set('addNewAnswer', false);
-     this.sendAction('saveAnswer', params, question_id);
+     this.sendAction('saveAnswer', params);
    }
   }
 });
