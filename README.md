@@ -4,7 +4,7 @@ Question and Answer (Q&A) is the result from an Epicodus solo project designed t
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
@@ -15,9 +15,11 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd Question-and-Answer`
+* `cd Ember-Question-and-Answer`
 * `npm install`
 * `bower install`
+* `ember install emberfire`
+* `ember install ember-bootstrap`
 
 ## Running / Development
 
@@ -70,7 +72,6 @@ You will need the following things properly installed on your computer.
     * Make README awesome
 
 ## Technologies Used
-
     * **HTML**: Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
     * **CSS**: The Cascading Style Sheets Specification is a computer language that is used to write formatting instructions.
     * **JavaScipt**: An object-oriented computer programming language commonly used to create interactive effects within web browsers.
