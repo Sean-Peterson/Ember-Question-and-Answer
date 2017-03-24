@@ -72,10 +72,10 @@ You will need the following properly installed on your computer.
     * Make README awesome
 
 ## Technologies Used
-    * **HTML**: Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
-    * **CSS**: The Cascading Style Sheets Specification is a computer language that is used to write formatting instructions.
-    * **JavaScipt**: An object-oriented computer programming language commonly used to create interactive effects within web browsers.
-    * **Ember**: Ember.js is an open-source JavaScript web framework, based on the Model–view–viewmodel (MVVM) pattern. It allows developers to create scalable single-page web applications by incorporating common idioms and best practices into the framework.
-    * **npm**: A NodeJS package manager. You can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies.
-    * **Bower**: Is a package manager for keeping track of what you've installed, as well as installing and upgrading packages.
-    * **JSON**: (JavaScript Object Notation) is a lightweight data-interchange format.
+  * **HTML**: Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+  * **CSS**: The Cascading Style Sheets Specification is a computer language that is used to write formatting instructions.
+  * **JavaScipt**: An object-oriented computer programming language commonly used to create interactive effects within web browsers.
+  * **Ember**: Ember.js is an open-source JavaScript web framework, based on the Model–view–viewmodel (MVVM) pattern. It allows developers to create scalable single-page web applications by incorporating common idioms and best practices into the framework.
+  * **npm**: A NodeJS package manager. You can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies.
+  * **Bower**: Is a package manager for keeping track of what you've installed, as well as installing and upgrading packages.
+  * **JSON**: (JavaScript Object Notation) is a lightweight data-interchange format.
